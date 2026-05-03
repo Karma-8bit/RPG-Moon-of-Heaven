@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* { /*Config das fichas*/
+    min-height: 100%;
+}
+body {
+    background-image: linear-gradient(45deg, black, rgb(41, 38, 38), rgb(39, 20, 20), rgb(54, 12, 12), rgb(71, 0, 0));
+}
+.ficha {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e2cf99;
+    border: 4px double black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 12px 12px rgba(0,0,0,0.2),
+    4px 4px 10px rgba(0,0,0,0.3);
+}
+.ficha h2 {
+    margin-top: 25px;
+}
+.ficha hr {
+    margin: 10px;
+}
