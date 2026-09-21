@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    background-image: radial-gradient(rgb(124, 23, 23), rgb(39, 24, 24) );
+    font-family: Grenze Gotisch, monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 25px;
+    background-attachment: fixed;
+    text-shadow: 0 0 1px;
+    max-width: 1200;
+    margin: auto;
+    padding: 20px;
+    font-size: 19px;
+}
+
+.grenze-gotisch-uniquifier {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 0 0 rgb(192, 0, 0);
+}
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    text-shadow: 1px 0 0 rgb(138, 27, 27);
+}
+
+h3 {
+    font-size: 26px;
+    text-shadow: 1px 0 0 rgb(59, 0, 0);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+    text-shadow: 1px 1px 3px red;
+}
+
+a:hover { 
+    color: black;
+    text-shadow: 1px 0 3px rgb(255, 43, 43);
+}
+
+hr {
+    margin-top: 40px;
+}
