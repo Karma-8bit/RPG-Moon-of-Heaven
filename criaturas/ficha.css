@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(
+        to right,
+        #1d0000);
+    
+    font-family: "Grenze Gotisch", monospace;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin: auto;
+    padding: 30px;
+
+    text-indent: 25px;
+    background-attachment: fixed;
+
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+}
+
+.ficha {
+    background-image: linear-gradient(to right, #4d3b28, #a8946b 50%, #4d3b28);
+    color: black;
+        
+
+    max-width: 900px;
+    margin: auto;
+
+    padding: 30px;
+
+    text-align: justify;
+
+    border: 4px double #432A1C;
+}
+
+.resistence-weakness {
+    display: flex;
+    justify-content: space-around;
+}
+
+.simbolo-ameaca {
+    width: 40px;
+    height: 51px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #5c2e14;
+}
+
+

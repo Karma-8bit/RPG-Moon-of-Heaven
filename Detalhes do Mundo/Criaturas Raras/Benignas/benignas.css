@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-image: radial-gradient(rgb(128, 21, 21),  rgb(37, 23, 23) );
+    font-family: Grenze Gotisch, monospace;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 25px;
+    background-attachment: fixed;
+    text-shadow: 0 0 1px;
+    margin: auto;
+    padding: 20px;
+    
+    font-size: 19px;
+}
+
+.grenze-gotisch-uniquifier {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    
+}
